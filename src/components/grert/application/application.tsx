@@ -2,8 +2,14 @@ export const Application = () => {
     return (
         <form>
             <div>
-                <label htmlFor="name"> Name </label>
-                <input type="text" id="name"/>
+                <label htmlFor="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Fullname"
+                    value="Vishwas"
+                    onChange={() => { }}
+                />
             </div>
             <div>
                 <label htmlFor=" job - location " > Job location </label >
@@ -18,7 +24,7 @@ export const Application = () => {
             </div>
             <div>
                 <label>
-                    < input type=" checkbox " id=" terms " /> agree to the terms and
+                    < input type="checkbox" id=" terms " /> agree to the terms and
                     conditions
                 </label>
             </div>
