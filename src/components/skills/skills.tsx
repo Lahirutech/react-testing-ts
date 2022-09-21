@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { SkillsProps } from './skills.types'
+import { SkillsProps } from './skillst.types'
 
 export const Skills = (props: SkillsProps) => {
     const { skills } = props
